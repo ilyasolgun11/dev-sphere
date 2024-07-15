@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+PE:wght@100..400&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.container-fluid {
+  color: white;
+  width: 1300px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.dropdown-toggle {
+  color: white;
+}
+
+.offcanvas-body a {
+  color: white;
+}
+
+header {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+
+header h1 {
+  line-height: 60px;
+  text-align: center;
+  max-width: 900px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+header h1 span {
+  font-size: 3.7rem;
+}
+
+header h1 span span {
+  font-size: 4rem;
+}
+
+header h1 span span {
+  font-size: 4rem;
+  font-family: "Playwrite PE", cursive;
+  font-weight: 600;
+  background: linear-gradient(90deg, #950ba1, #ffc45e, #fff8f8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-bottom: 10px;
+}
+
+header p {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.action-buttons-container {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.action-buttons-container button {
+  position: relative;
+  padding: 10px 35px;
+  background: linear-gradient(90deg, #790983, #ffb536, #fff8f8);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  background-size: 200%;
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+.action-buttons-container button:hover {
+  transform: scale(1.05);
+}
